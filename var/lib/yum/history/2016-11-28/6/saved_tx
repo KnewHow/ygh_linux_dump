@@ -1,0 +1,25 @@
+714:da9f640ae6e631c42cc4e9a1153f61c4e7df51bf
+0
+3
+base:6696:1463896289
+extras:62:1467739109
+updates:677:1480372828
+2
+mbr: sysstat,x86_64,0,9.0.4,31.el6 70
+  repo: base
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: sysstat,x86_64,0,9.0.4,22.el6@i:updates
+  updates: sysstat,x86_64,0,9.0.4,22.el6@i
+mbr: sysstat,x86_64,0,9.0.4,22.el6 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: sysstat,x86_64,0,9.0.4,31.el6@a:updatedby
+  updated_by: sysstat,x86_64,0,9.0.4,31.el6@a

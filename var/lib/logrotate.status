@@ -1,0 +1,15 @@
+logrotate state -- version 2
+"/var/log/yum.log" 2016-11-29
+"/var/log/dracut.log" 2016-11-29
+"/var/log/httpd/error_log" 2016-12-19
+"/var/log/wtmp" 2016-11-29
+"/var/log/spooler" 2016-12-27
+"/var/log/btmp" 2016-12-1
+"/var/log/maillog" 2016-12-27
+"/var/log/cups/*_log" 2016-11-29
+"/var/log/secure" 2016-12-27
+"/var/log/ppp/connect-errors" 2016-11-29
+"/var/log/messages" 2016-12-27
+"/var/account/pacct" 2016-12-29
+"/var/log/cron" 2016-12-27
+"/var/log/httpd/access_log" 2016-12-11

@@ -1,0 +1,14 @@
+714:e17a6fb3f285b6cc5a8fdb6b46943d6aeec1d696
+0
+3
+base:6696:1463896289
+extras:62:1467739109
+updates:677:1480372828
+1
+mbr: dos2unix,x86_64,0,3.1,37.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

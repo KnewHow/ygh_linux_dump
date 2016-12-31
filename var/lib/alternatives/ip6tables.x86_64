@@ -1,0 +1,23 @@
+auto
+/sbin/ip6tables
+sbin-ip6tables-multi.x86_64
+/sbin/ip6tables-multi
+sbin-ip6tables-restore.x86_64
+/sbin/ip6tables-restore
+sbin-ip6tables-save.x86_64
+/sbin/ip6tables-save
+man-ip6tables-restore.x86_64
+/usr/share/man/man8/ip6tables-restore.8.gz
+man-ip6tables-save.x86_64
+/usr/share/man/man8/ip6tables-save.8.gz
+man-ip6tables.x86_64
+/usr/share/man/man8/ip6tables.8.gz
+
+/sbin/ip6tables-1.4.7
+90 ip6tables
+/sbin/ip6tables-multi-1.4.7
+/sbin/ip6tables-restore-1.4.7
+/sbin/ip6tables-save-1.4.7
+/usr/share/man/man8/ip6tables-restore-1.4.7.8.gz
+/usr/share/man/man8/ip6tables-save-1.4.7.8.gz
+/usr/share/man/man8/ip6tables-1.4.7.8.gz

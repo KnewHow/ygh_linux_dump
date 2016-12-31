@@ -1,0 +1,124 @@
+Dec 27 14:58:57 YGH_Linux sshd[1954]: Accepted password for ygh from 192.168.98.1 port 5319 ssh2
+Dec 27 14:58:57 YGH_Linux sshd[1954]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 27 14:59:04 YGH_Linux sudo:      ygh : TTY=pts/0 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 27 14:59:04 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 27 17:36:26 YGH_Linux sshd[962]: Received signal 15; terminating.
+Dec 27 17:36:26 YGH_Linux sshd[1954]: pam_unix(sshd:session): session closed for user ygh
+Dec 27 17:36:26 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 28 08:02:32 YGH_Linux sshd[962]: Server listening on 0.0.0.0 port 52113.
+Dec 28 08:02:32 YGH_Linux sshd[962]: Server listening on :: port 52113.
+Dec 28 08:05:17 YGH_Linux sshd[979]: Accepted password for ygh from 192.168.98.1 port 9825 ssh2
+Dec 28 08:05:17 YGH_Linux sshd[979]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 28 08:06:11 YGH_Linux sudo:      ygh : TTY=pts/1 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 28 08:06:12 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 28 08:32:35 YGH_Linux sshd[969]: Server listening on 0.0.0.0 port 52113.
+Dec 28 08:32:35 YGH_Linux sshd[969]: Server listening on :: port 52113.
+Dec 28 08:33:59 YGH_Linux sshd[985]: Accepted password for ygh from 192.168.98.1 port 9873 ssh2
+Dec 28 08:33:59 YGH_Linux sshd[985]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 28 08:34:03 YGH_Linux sudo:      ygh : TTY=pts/1 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 28 08:34:03 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 28 09:05:57 YGH_Linux useradd[1503]: new group: name=ett, GID=821
+Dec 28 09:05:57 YGH_Linux useradd[1503]: new user: name=ett, UID=820, GID=821, home=/home/ett, shell=/bin/bash
+Dec 28 09:06:58 YGH_Linux su: pam_unix(su-l:session): session opened for user ett by ygh(uid=0)
+Dec 28 09:07:51 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=820)
+Dec 28 09:08:55 YGH_Linux passwd: pam_unix(passwd:chauthtok): password changed for ett
+Dec 28 09:27:11 YGH_Linux sshd[987]: subsystem request for publickey@vandyke.com
+Dec 28 09:27:11 YGH_Linux sshd[987]: subsystem request for publickey@vandyke.com failed, subsystem not found
+Dec 28 09:27:11 YGH_Linux sshd[987]: subsystem request for publickey
+Dec 28 09:27:11 YGH_Linux sshd[987]: subsystem request for publickey failed, subsystem not found
+Dec 28 09:29:48 YGH_Linux sshd[1791]: Accepted password for ygh from 192.168.98.1 port 10023 ssh2
+Dec 28 09:29:48 YGH_Linux sshd[1791]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 28 09:29:53 YGH_Linux sudo:      ygh : TTY=pts/0 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 28 09:29:53 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 28 11:37:28 YGH_Linux sshd[969]: Received signal 15; terminating.
+Dec 28 11:37:28 YGH_Linux sshd[985]: pam_unix(sshd:session): session closed for user ygh
+Dec 28 11:37:28 YGH_Linux sshd[1791]: pam_unix(sshd:session): session closed for user ygh
+Dec 28 11:37:28 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 28 11:37:28 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 28 11:37:28 YGH_Linux su: pam_unix(su-l:session): session closed for user ett
+Dec 28 11:37:28 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 28 13:27:35 YGH_Linux sshd[962]: Server listening on 0.0.0.0 port 52113.
+Dec 28 13:27:35 YGH_Linux sshd[962]: Server listening on :: port 52113.
+Dec 28 13:29:30 YGH_Linux sshd[979]: Accepted password for ygh from 192.168.98.1 port 11274 ssh2
+Dec 28 13:29:30 YGH_Linux sshd[979]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 28 13:29:40 YGH_Linux sudo:      ygh : TTY=pts/1 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 28 13:29:40 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 28 14:46:32 YGH_Linux sshd[962]: Received signal 15; terminating.
+Dec 28 14:46:32 YGH_Linux sshd[979]: pam_unix(sshd:session): session closed for user ygh
+Dec 28 14:46:32 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 28 14:48:44 YGH_Linux sshd[959]: Server listening on 0.0.0.0 port 52113.
+Dec 28 14:48:44 YGH_Linux sshd[959]: Server listening on :: port 52113.
+Dec 28 14:50:06 YGH_Linux sshd[975]: Accepted password for ygh from 192.168.98.1 port 11373 ssh2
+Dec 28 14:50:06 YGH_Linux sshd[975]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 28 14:50:11 YGH_Linux sudo:      ygh : TTY=pts/1 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 28 14:50:11 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 28 14:50:19 YGH_Linux sudo:      ygh : TTY=pts/2 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 28 14:50:19 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 28 15:20:08 YGH_Linux sshd[1531]: Accepted password for ygh from 192.168.98.1 port 11417 ssh2
+Dec 28 15:20:08 YGH_Linux sshd[1531]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 28 15:20:15 YGH_Linux sudo:      ygh : TTY=pts/0 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 28 15:20:15 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 28 15:27:52 YGH_Linux login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Dec 28 15:27:52 YGH_Linux login: ROOT LOGIN ON tty1
+Dec 28 15:27:54 YGH_Linux login: pam_unix(login:session): session closed for user root
+Dec 28 15:27:55 YGH_Linux sshd[959]: Received signal 15; terminating.
+Dec 28 15:27:55 YGH_Linux sshd[975]: pam_unix(sshd:session): session closed for user ygh
+Dec 28 15:27:55 YGH_Linux sshd[1531]: pam_unix(sshd:session): session closed for user ygh
+Dec 28 15:27:55 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 28 15:27:55 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 28 15:27:55 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 29 04:57:13 YGH_Linux sshd[966]: Server listening on 0.0.0.0 port 52113.
+Dec 29 04:57:13 YGH_Linux sshd[966]: Server listening on :: port 52113.
+Dec 29 08:01:27 YGH_Linux sshd[983]: Server listening on 0.0.0.0 port 52113.
+Dec 29 08:01:27 YGH_Linux sshd[983]: Server listening on :: port 52113.
+Dec 29 11:05:56 YGH_Linux login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Dec 29 11:05:56 YGH_Linux login: ROOT LOGIN ON tty1
+Dec 29 11:07:31 YGH_Linux login: pam_unix(login:session): session closed for user root
+Dec 29 11:07:32 YGH_Linux sshd[983]: Received signal 15; terminating.
+Dec 29 11:09:05 YGH_Linux sshd[971]: Server listening on 0.0.0.0 port 52113.
+Dec 29 11:09:05 YGH_Linux sshd[971]: Server listening on :: port 52113.
+Dec 29 11:10:06 YGH_Linux login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Dec 29 11:10:06 YGH_Linux login: ROOT LOGIN ON tty1
+Dec 29 11:14:14 YGH_Linux login: pam_unix(login:session): session closed for user root
+Dec 29 11:14:14 YGH_Linux sshd[971]: Received signal 15; terminating.
+Dec 29 11:15:00 YGH_Linux sshd[963]: Server listening on 0.0.0.0 port 52113.
+Dec 29 11:15:00 YGH_Linux sshd[963]: Server listening on :: port 52113.
+Dec 29 11:16:45 YGH_Linux login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Dec 29 11:16:45 YGH_Linux login: ROOT LOGIN ON tty1
+Dec 29 11:18:51 YGH_Linux sshd[1055]: Accepted password for ygh from 192.168.98.1 port 14057 ssh2
+Dec 29 11:18:51 YGH_Linux sshd[1055]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 29 11:18:57 YGH_Linux sudo:      ygh : TTY=pts/0 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 29 11:18:58 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 29 11:20:23 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 29 11:20:24 YGH_Linux sshd[1055]: pam_unix(sshd:session): session closed for user ygh
+Dec 29 11:20:25 YGH_Linux sshd[1128]: Accepted password for ygh from 192.168.98.1 port 14068 ssh2
+Dec 29 11:20:25 YGH_Linux sshd[1128]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 29 11:20:33 YGH_Linux sudo:      ygh : TTY=pts/0 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 29 11:20:33 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 29 11:55:15 YGH_Linux login: pam_unix(login:session): session closed for user root
+Dec 29 11:55:16 YGH_Linux sshd[963]: Received signal 15; terminating.
+Dec 29 11:55:16 YGH_Linux sshd[1128]: pam_unix(sshd:session): session closed for user ygh
+Dec 29 11:55:16 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 30 15:01:54 YGH_Linux sshd[971]: Server listening on 0.0.0.0 port 52113.
+Dec 30 15:01:54 YGH_Linux sshd[971]: Server listening on :: port 52113.
+Dec 30 15:03:35 YGH_Linux sshd[1017]: Accepted password for ygh from 192.168.98.1 port 2750 ssh2
+Dec 30 15:03:35 YGH_Linux sshd[1017]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 30 15:03:39 YGH_Linux sudo:      ygh : TTY=pts/0 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 30 15:03:39 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 30 15:07:56 YGH_Linux sshd[1017]: pam_unix(sshd:session): session closed for user ygh
+Dec 30 15:07:56 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 31 07:52:01 YGH_Linux sshd[978]: Server listening on 0.0.0.0 port 52113.
+Dec 31 07:52:01 YGH_Linux sshd[978]: Server listening on :: port 52113.
+Dec 31 07:52:49 YGH_Linux sshd[1025]: Accepted password for ygh from 192.168.98.1 port 12345 ssh2
+Dec 31 07:52:49 YGH_Linux sshd[1025]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 31 07:52:55 YGH_Linux sudo:      ygh : TTY=pts/0 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 31 07:52:55 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)
+Dec 31 08:10:43 YGH_Linux sshd[978]: Received signal 15; terminating.
+Dec 31 08:10:43 YGH_Linux sshd[1025]: pam_unix(sshd:session): session closed for user ygh
+Dec 31 08:10:43 YGH_Linux su: pam_unix(su-l:session): session closed for user root
+Dec 31 08:11:20 YGH_Linux sshd[961]: Server listening on 0.0.0.0 port 52113.
+Dec 31 08:11:20 YGH_Linux sshd[961]: Server listening on :: port 52113.
+Dec 31 08:11:49 YGH_Linux sshd[1011]: Accepted password for ygh from 192.168.98.1 port 12966 ssh2
+Dec 31 08:11:49 YGH_Linux sshd[1011]: pam_unix(sshd:session): session opened for user ygh by (uid=0)
+Dec 31 08:11:59 YGH_Linux sudo:      ygh : TTY=pts/0 ; PWD=/home/ygh ; USER=root ; COMMAND=/bin/su -
+Dec 31 08:11:59 YGH_Linux su: pam_unix(su-l:session): session opened for user root by ygh(uid=0)

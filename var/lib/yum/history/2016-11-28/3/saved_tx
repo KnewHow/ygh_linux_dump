@@ -1,0 +1,14 @@
+713:d92ae6ae3ab1cd03721d563fe702fbbcaf5b9e3f
+0
+3
+base:0:1463896289
+extras:0:1467739109
+updates:0:1480372828
+1
+mbr: tree,x86_64,0,1.5.3,3.el6 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False

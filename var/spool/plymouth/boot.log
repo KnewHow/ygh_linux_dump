@@ -1,0 +1,22 @@
+%G		Welcome to [0;36mCentOS[0;39m 
+Starting udev: %G[60G[[0;32m  OK  [0;39m]
+Setting hostname YGH_Linux:  [60G[[0;32m  OK  [0;39m]
+Setting up Logical Volume Management:   No volume groups found
+[60G[[0;32m  OK  [0;39m]
+Checking filesystems
+/dev/sda3: clean, 84707/1171456 files, 695661/4679424 blocks
+/dev/sda1: clean, 39/51200 files, 40639/204800 blocks
+[60G[[0;32m  OK  [0;39m]
+Remounting root filesystem in read-write mode:  [60G[[0;32m  OK  [0;39m]
+Mounting local filesystems:  [60G[[0;32m  OK  [0;39m]
+Enabling local filesystem quotas:  [60G[[0;32m  OK  [0;39m]
+Enabling /etc/fstab swaps:  [60G[[0;32m  OK  [0;39m]
+Entering non-interactive startup
+Bringing up loopback interface:  [60G[[0;32m  OK  [0;39m]
+Bringing up interface eth0:  
+Determining IP information for eth0... done.
+[60G[[0;32m  OK  [0;39m]
+Starting system logger: [60G[[0;32m  OK  [0;39m]
+Starting sshd: [60G[[0;32m  OK  [0;39m]
+ntpdate: Synchronizing with time server: [60G[[0;31mFAILED[0;39m]
+Starting crond: [60G[[0;32m  OK  [0;39m]

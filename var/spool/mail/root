@@ -1,0 +1,16 @@
+From root@moban.localdomain  Fri Dec  2 13:38:23 2016
+Return-Path: <root@moban.localdomain>
+X-Original-To: root
+Delivered-To: root@moban.localdomain
+Received: by moban.localdomain (Postfix, from userid 0)
+	id 784F1637C7; Fri,  2 Dec 2016 13:38:23 +0800 (CST)
+To: root@moban.localdomain
+From: ygh@moban.localdomain
+Auto-Submitted: auto-generated
+Subject: *** SECURITY information for moban ***
+Message-Id: <20161202053823.784F1637C7@moban.localdomain>
+Date: Fri,  2 Dec 2016 13:38:23 +0800 (CST)
+
+moban : Dec  2 13:38:23 : ygh : user NOT in sudoers ; TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/bin/su -
+
+

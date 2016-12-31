@@ -1,0 +1,14 @@
+712:75eada0ff4034e92fc28649f5f1db3884e6b4fd8
+0
+3
+base:6696:1463896289
+extras:62:1467739109
+updates:677:1480372828
+1
+mbr: tree,x86_64,0,1.5.3,3.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

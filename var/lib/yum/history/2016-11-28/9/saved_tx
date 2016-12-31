@@ -1,0 +1,32 @@
+715:301493455492b8a4549920b2140b96375e20debb
+0
+3
+base:6696:1463896289
+extras:62:1467739109
+updates:686:1481082526
+3
+mbr: httpd-tools,x86_64,0,2.2.15,55.el6.centos.2 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,55.el6.centos.2@a:dependson
+  depends_on: httpd,x86_64,0,2.2.15,55.el6.centos.2@a
+mbr: httpd,x86_64,0,2.2.15,55.el6.centos.2 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: apr-util-ldap,x86_64,0,1.3.9,3.el6_0.1 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,55.el6.centos.2@a:dependson
+  depends_on: httpd,x86_64,0,2.2.15,55.el6.centos.2@a

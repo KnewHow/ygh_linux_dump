@@ -1,0 +1,14 @@
+713:d92ae6ae3ab1cd03721d563fe702fbbcaf5b9e3f
+0
+3
+base:6696:1463896289
+extras:62:1467739109
+updates:677:1480372828
+1
+mbr: telnet,x86_64,1,0.17,48.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

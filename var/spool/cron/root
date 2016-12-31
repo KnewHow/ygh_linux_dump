@@ -1,0 +1,27 @@
+#sync time
+*/15 * * * * /bin/sh /server/scripts/common/synctime.sh  > /dev/null 2>&1
+
+#Print name
+* * * * * echo "ygh" >> /server/log/ygh.log 
+#print time
+00 9,16 * * 6,7 /server/scripts/oldbiy.sh > /dev/null 2>&1
+#just test
+#* * * * * /server/scripts/oldboy.sh
+#Prefessor write
+00 9,16 * * 6,7 /bin/sh /server/scripts/oldboy.sh > /dev/null 2>&1
+#test the pofessor write
+#* * * * * /bin/sh /server/scripts/oldboy.sh > /dev/null 2>&1
+#print + to oldboy.log every minute
+* * * * * /bin/sh /server/scripts/echo1.sh > /dev/null 2>&1
+#archive /etc/services to /tmp
+00 */2 * * * /bin/sh /server/scripts/t2.sh >/devnull 2>&1  
+#archive /var/www/html to /data
+00 12 * * * /bin/sh /server/scripts/t1.sh > /dev/null 2>&1
+
+
+
+
+#fifth test:execute ping.sh 2016-12-27
+*/3 * * * * /bin/sh /server/scripts/fifth/ping.sh > /dev/null 2>&1
+#fifth test:execute t3.sh 2016-12-28
+00 02 * * * /bin/sh /server/scripts/fifth/t3.sh > /dev/null 2>&1

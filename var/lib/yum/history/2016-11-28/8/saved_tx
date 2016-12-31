@@ -1,0 +1,44 @@
+715:2c645a38a953fbe1fd82f9b5386c9b1f44a2747a
+0
+3
+base:6696:1463896289
+extras:62:1467739109
+updates:686:1481082526
+4
+mbr: ntpdate,x86_64,0,4.2.6p5,1.el6.centos 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ntpdate,x86_64,0,4.2.6p5,10.el6.centos.1@a:updatedby
+  updated_by: ntpdate,x86_64,0,4.2.6p5,10.el6.centos.1@a
+mbr: ntp,x86_64,0,4.2.6p5,1.el6.centos 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ntp,x86_64,0,4.2.6p5,10.el6.centos.1@a:updatedby
+  updated_by: ntp,x86_64,0,4.2.6p5,10.el6.centos.1@a
+mbr: ntp,x86_64,0,4.2.6p5,10.el6.centos.1 70
+  repo: updates
+  ts_state: u
+  output_state: 10
+  isDep: True
+  reason: user
+  reinstall: False
+  relatedto: ntp,x86_64,0,4.2.6p5,1.el6.centos@i:updates ntp,x86_64,0,4.2.6p5,1.el6.centos@i:dependson
+  depends_on: ntp,x86_64,0,4.2.6p5,1.el6.centos@i
+  updates: ntp,x86_64,0,4.2.6p5,1.el6.centos@i
+mbr: ntpdate,x86_64,0,4.2.6p5,10.el6.centos.1 70
+  repo: updates
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ntpdate,x86_64,0,4.2.6p5,1.el6.centos@i:updates ntp,x86_64,0,4.2.6p5,10.el6.centos.1@a:dependson
+  updates: ntpdate,x86_64,0,4.2.6p5,1.el6.centos@i
